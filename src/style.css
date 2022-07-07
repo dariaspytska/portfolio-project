@@ -1,0 +1,17 @@
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
+body {
+  background-color: #1b1b1b;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 84px;
+  letter-spacing: 0.1em;
+}
