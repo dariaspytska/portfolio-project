@@ -91,6 +91,10 @@ line-height: 17px;
 letter-spacing: 0.1em;
 text-transform: uppercase;
 }
+ img {
+  max-width: 450px;
+  max-height: 360px;
+ }
 
 @media (max-width: 576px) {
 
