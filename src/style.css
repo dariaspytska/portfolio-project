@@ -5,16 +5,13 @@ font-family: 'Roboto', sans-serif;*/
   --font-family-first: "Roboto", sans-serif;
 }
 body {
-  background-color: black;
+  background-color: rgb(20, 20, 20);
 }
 
 .background {
 background-image: url('../img/bg.png');
 }
 
-.navbar {
-  border: 2px solid #000000;
-}
 .bg-design {
   background-color: #1b1b1b;
 }
@@ -118,6 +115,32 @@ line-height: 84px;
 text-align: center;
 letter-spacing: 0.1em;
 text-transform: uppercase;
+}
+
+.white {
+color: var(--main-text-color);
+font-family: var(--font-family-first);
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+text-align: center;
+}
+
+.pink {
+font-family: var(--font-family-first);
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #F65282;
+text-align: center;
+}
+
+.white a {
+  text-decoration: none;
 }
 
 @media (max-width: 576px) {
