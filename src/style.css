@@ -5,7 +5,7 @@ font-family: 'Roboto', sans-serif;*/
   --font-family-first: "Roboto", sans-serif;
 }
 body {
-  background-color: #1b1b1b;
+  background-color: black;
 }
 
 .background {
@@ -100,18 +100,26 @@ text-transform: uppercase;
   margin: 30px 100px;
 }
 
-.foot {
-  background-color:
-}
-
 footer .btn {
   border: none;
+}
+
+.gallery {
+color : var(--main-text-color);
+font-family: var(--font-family-first);
+font-style: normal;
+font-weight: 700;
+font-size: 72px;
+line-height: 84px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
 }
 
 @media (max-width: 576px) {
 
  .background {
-  background-image: url(none);
+  background-image: url('none');
  }
  h1 {
   display : none;
