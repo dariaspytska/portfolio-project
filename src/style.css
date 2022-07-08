@@ -105,6 +105,10 @@ footer .btn {
   background-color: #282323;
 }
 
+.abt .btn {
+  border: none;
+}
+
 .gallery {
 color : var(--main-text-color);
 font-family: var(--font-family-first);
