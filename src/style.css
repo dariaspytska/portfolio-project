@@ -139,6 +139,15 @@ color: #F65282;
 text-align: center;
 }
 
+.size {
+  min-width : 700px;
+  min-height: 780px;
+}
+
+.aboutme {
+  margin: 30px 0 0  ;
+}
+
 .white a {
   text-decoration: none;
 }
@@ -158,6 +167,15 @@ display: none;
 
 .portfolio {
   margin: 0 0 0 45px;
+}
+
+.aboutme {
+  margin: 0 0 0 45px ;
+  max-width: 80%;
+}
+
+.size {
+  display: none;
 }
 }
 
