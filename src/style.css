@@ -108,5 +108,10 @@ text-transform: uppercase;
  h1 {
   display : none;
  }
+
+.non {
+display: none;
+}
+
 }
 
