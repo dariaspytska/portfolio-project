@@ -6,11 +6,9 @@ font-family: 'Roboto', sans-serif;*/
 }
 body {
   background-color: #1b1b1b;
-  max-width: 100%;
 }
 
-h1 {
-  text-align: center;
+.hero h1 {
   color: var(--main-text-color);
   font-family: var(--font-family-first);
   font-style: normal;
@@ -35,7 +33,9 @@ text-transform: uppercase;
 .hero {
   color: var(--main-text-color);
   text-align: center;
-  padding : 20em}
+  padding: 19em 0 19em 0;
+  background-image: url('../img/bg.png');
+}
 
 .hero h2 {
   font-family: var(--font-family-first);
@@ -83,11 +83,12 @@ text-transform: uppercase;
 }
 
 @media (max-width: 576px) {
-  h1 {
-    display: none;
-  }
-  
-  .hero {
-  
-  }
+
+ .hero {
+  background-image: url(none);
+ }
+ h1 {
+  display : none;
+ }
 }
+
