@@ -92,9 +92,13 @@ letter-spacing: 0.1em;
 text-transform: uppercase;
 }
  img {
-  max-width: 450px;
+  max-width: 400px;
   max-height: 360px;
  }
+
+.portfolio {
+  margin: 30px 100px;
+}
 
 @media (max-width: 576px) {
 
